@@ -61,7 +61,7 @@ body {
     display: flex;
     padding: 20px 140px;
     justify-content: space-between;
-    background-color: #262626;
+    background-color: #252424;
     color: #fff;
     align-items: center;
     position: absolute;
@@ -75,5 +75,5 @@ body {
 }
 
 .footer-word {
-    color: rgb(204, 47, 144);
+    color: rgb(206, 38, 142);
 }
