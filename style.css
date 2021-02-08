@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-section {
+    background-image: url("/images/Clip.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 50% 50%;
+    height: 100vh;
+}
+
+.contact-title {
+    font-size: 90px;
+    text-align: center;
+    margin: 0 0 24px 0;
+}
+
+.contact-text {
+    font-size: 17px;
+    text-align: center;
+    margin: 0 0 48px 0;
+}
+
+.contact-form {
+    display: inline-block;
+    margin: 0 164px;
+}
+
+.contact-input {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 500px;
+    outline: 0;
+    background-color: rgb(0, 196, 196, 0.4);
+    color: #fff;
+    border: 0;
+    border-left: 5px solid rgb(30, 124, 211, 0);
+}
+
+.contact-input:hover {
+    border-left: 5px solid rgb(30, 124, 211);
+    background-color: rgb(0, 196, 196, 1);
+}
+
+.contact-data {
+    display: inline-block;
+    margin: 0 120px;
+}
+
+/* ----------------FOOOOOOTER------------------- */
+
+.cahee-footer {
+    width: 100%;
+    display: flex;
+    padding: 20px 140px;
+    justify-content: space-between;
+    background-color: #262626;
+    color: #fff;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-logo {
+    width: 48px;
+    height: auto;
+}
+
+.footer-word {
+    color: rgb(204, 47, 144);
+}
